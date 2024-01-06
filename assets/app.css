@@ -1,0 +1,26 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+}
+
+thead tr {
+    background-color: #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ccc;
+}
